@@ -1,0 +1,71 @@
+body{
+    background-color: #DDFFDD;
+    padding: 3% 0px 15% 0px;
+    margin-bottom: 10%;
+    height: 400px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#table_area{
+    width: 80%;
+    background-color: white;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 40px;
+    padding: 4% 8% 8% 8%;
+    border-radius: 75px;
+   
+
+
+}
+
+#table_body{
+
+    width:100%;
+    border-radius: 1%;
+    
+}
+
+th.bodies{
+    height: 100px;
+    width: 180px;
+    border-radius: 5%;
+}
+
+th.num{
+    width: 80px;
+    background-color: lightpink;
+}
+
+th.times{
+    width: 90px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: blue;
+}
+
+#login_url{
+    background-color: aqua;
+    margin-left: 80%;
+    
+  
+}
+#toppage_url{
+    background-color: aqua;
+    margin-left: 80%;
+    margin-bottom: 5%;
+} 
+
+.days{
+    background-color: aqua;
+}
+
+

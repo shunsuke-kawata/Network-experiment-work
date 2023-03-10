@@ -1,0 +1,71 @@
+body{
+    background-color: #DDFFDD;
+    padding: 8% 0px 15% 0px;
+    margin-bottom: 10%;
+    height: 400px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#login_form{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: 60%;
+    height: 110%;
+    padding: 30px 10px 60px 10px;
+    background-color: white;
+    border:solid black 2px;
+}
+
+#in_form{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 60%;
+    margin-bottom: 50px;
+    margin-top: 3%;
+    padding-top: 20px;
+
+    background-color: lightskyblue;
+}
+
+#student_number{
+    width: 100%;
+    font-size: 18px;
+   
+}
+
+
+#student_password{
+    width: 100%;
+    font-size: 18px;
+}
+
+.login_box{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#login_btn{
+    margin-right: 30%;
+    margin-left: 70%;
+    font-size: 18px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited, a:hover, a:active {
+    color: blue;
+  }
+
+#toppage_url{
+    background-color: aqua;
+    margin-left: 80%;
+} 
+

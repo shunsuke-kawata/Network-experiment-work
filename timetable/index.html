@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index_style.css">
+</head>
+<body>
+   
+
+   
+    <div id="login_form">
+       
+        <p>・学籍番号とパスワードを入力してください。</p>
+        <div id="in_form">
+            <h1>時間割ログイン画面</h1>
+            <div class="login_box">
+                <label for="student_number">学籍番号　</label>
+                <input type="text" id="student_number" autocomplete="off">
+            </div>
+            <br>
+            <div class="login_box">
+                <label for="student_number">パスワード</label>
+                <input type="password" id="student_password">
+            </div>
+        <br><br>
+        </div>
+        
+        
+        <input type="button" value="ログイン" id="login_btn" onclick="return login_check()">
+        <br><br>
+        
+    </div>
+    <br>
+    <input id="toppage_url" type="button" onclick="location.href='../toppage.html'" value="最終課題トップページに戻る" >
+    
+</body>
+<script src="./js/index.js"></script>
+</html>

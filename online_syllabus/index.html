@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index_style.css">
+    <title>prog3</title>
+</head>
+<body>
+
+    <div id="main_form">
+        <h1>オンラインシラバス</h1>
+    <div id="search_area">
+        
+        <p>・科目名をクリックすることでその教科の科目詳細を、教員名をクリックすることでその教員の詳細情報を表示することができます。</p>
+        <p>・コースを選択することで必修科目のみを表示することができます。</p>
+        <input type="radio" class="radio_btn" name="course_select"  value="0" checked onclick="radio_checked()" >指定しない
+        <input type="radio" class="radio_btn" name="course_select"  value="1" onclick="radio_checked()">知能情報システム工学コース
+        <input type="radio" class="radio_btn" name="course_select"  value="2" onclick="radio_checked()">情報ネットワーク工学コース
+        <br><br>
+        <label for="input_label" id="labelInput">キーワード検索</label>
+        <input type="text" id="myInput" onkeyup="search_subject()" placeholder="科目名、教員名などを入力してください">
+        
+    </div>
+    
+    <ul id="subject_list">
+        <div class="necessaly_both">
+            <li class ="first"><div class="sub_name">科目名</div><div class="tcr_name">教員名</div></li>
+            <li class ="next"><a href="./templates/subject/prog_theory3.html"><div class="sub_name">プログラミング概論Ⅲ</div></a><a href="./templates/teacher/yamashita.html"><div class="tcr_name">山下義行</div></a></li>
+            <li class ="next"><a href="./templates/subject/prog_practice3.html"><div class="sub_name">プログラミング演習Ⅲ</div></a><a href="./templates/teacher/otsuki.html"><div class="tcr_name">大月美佳</div></a></li>
+            <li class ="next"><a href="./templates/subject/pal_dis.html"><div class="sub_name">並列分散処理</div></a><a href="./templates/teacher/matsumae.html"><div class="tcr_name">松前進</div></a></li>
+            <li class ="next"><a href="./templates/subject/tech_eng.html"><div class="sub_name">技術英語</div></a><a href="./templates/teacher/maeda.html"><div class="tcr_name">前田明子</div></a></li>
+            <li class ="next"><a href="./templates/subject/security.html"><div class="sub_name">情報社会とセキュリティ</div></a><a href="./templates/teacher/tadaki.html"><div class="tcr_name">只木進一</div></a></li>
+        </div>
+        
+        <div class="necessaly_sys">
+            <li class ="next"><a href="./templates/subject/ai_theory.html"><div class="sub_name">人工知能概論</div></a><a href="./templates/teacher/okazaki.html"><div class="tcr_name">岡崎泰久</div></a></li>
+            <li class ="next"><a href="./templates/subject/ai_exp.html"><div class="sub_name">人工知能実験</div></a><a href="./templates/teacher/yamaguchi.html"><div class="tcr_name">山口暢彦</div></a></li>
+        </div>
+
+        <div class="necessaly_net">
+            <li class ="next"><a href="./templates/subject/net_theory.html"><div class="sub_name">情報ネットワーク</div></a><a href="./templates/teacher/hanada.html"><div class="tcr_name">花田英輔</div></a></li>
+            <li class ="next"><a href="./templates/subject/net_exp.html"><div class="sub_name">情報ネットワーク実験</div></a><a href="./templates/teacher/hanada.html"><div class="tcr_name">花田英輔</div></a></li>
+        </div>
+        
+        
+        
+    </ul>
+
+    <br>
+    
+
+    </div>
+
+
+    
+
+    <br>
+    <input id="toppage_url" type="button" onclick="location.href='../toppage.html'" value="最終課題トップページに戻る" >
+    
+
+    
+</body>
+<script type="text/javascript" src="./js/index.js"></script>
+
+
+</html>
